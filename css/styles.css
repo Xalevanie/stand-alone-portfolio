@@ -56,6 +56,7 @@ header img {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+    width: 100%;
 }
 
 figure {
@@ -69,13 +70,23 @@ figure {
 figure div{
     display: flex;
   flex-wrap: wrap;
-justify-content: space-around;
+justify-content: space-around; 
+    padding: 1em
 }
 figcaption {
     font-family: 'Alegreya Sans', sans-serif;
-    color: darkslategrey;
-    font-size: 120px;
+    color: salmon;
     
+}
+
+a img{
+    border: solid 5px antiquewhite;
+    object-fit: fill;
+    border-radius: 3%;
+}
+a:nth-child(even) {
+    margin-top: 1.5em;
+    margin-bottom: 1em;
 }
 
 .lg-backdrop {
@@ -138,6 +149,9 @@ MEDIA QUERIES
     header img {
     height: 300px;
 }
+    figcaption {
+        font-size: 50px;
+    }
   
 }
 
@@ -155,6 +169,9 @@ MEDIA QUERIES
     header img {
     height: 500px;
 }
+    figcaption {
+        font-size: 50px;
+    }
 
 }
 
@@ -173,5 +190,8 @@ MEDIA QUERIES
     header img {
 height: 700px;
 }
+    figcaption {
+        font-size: 72px;
+    }
 
 }
