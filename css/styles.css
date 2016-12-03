@@ -24,6 +24,11 @@ header {
     justify-content: center;
     
 }
+header div {
+    display: flex;
+    justify-content: center;
+    
+}
 
 
 header h1 {
@@ -39,12 +44,9 @@ header h1 {
 
 header img {
     border-radius: 50%;
-    box-shadow: 0 0 60px rgba(250,235,215,1);
-    width: 5%;
-    height: 5%;
-    flex-grow: .5;
-    
- object-fit: cover;
+    width: 80%;
+    height: 500px;
+    object-fit: cover;
 
 }
 
@@ -99,11 +101,13 @@ MEDIA QUERIES
   body {
        background: linear-gradient(-90deg, red, orange, yellow, green, blue, purple);
   }
-    header img {
-    flex-grow: .8;
     
- 
-
+    header h1 {
+        font-size: 42px;
+    }
+    
+    header img {
+    height: 300px;
 }
   
 }
@@ -116,14 +120,15 @@ MEDIA QUERIES
       
       background: linear-gradient(90deg, #3A0000, darkred, #3A0000);
   }
+    header h1 {
+        font-size: 72px;
+    }
     header img {
-   flex-grow: .5;
-    
- 
-
+    height: 500px;
 }
 
 }
+
 
 /* Desktop: 1280px = 80em */
 @media screen and (min-width: 80em) { 
@@ -133,11 +138,11 @@ MEDIA QUERIES
        background: url(../img/dark_wood.png);
     background-attachment: fixed;
   }
+    header h1 {
+        font-size: 84px;
+    }
     header img {
-    flex-grow: .5;
-    
- 
-
+height: 700px;
 }
 
 }
