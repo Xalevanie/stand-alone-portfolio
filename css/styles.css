@@ -62,10 +62,10 @@ figure {
   background: #eee;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
     margin-top: 3em;
   padding: 1em;
-  width: 20em;
+  width: 18em;
 }
 
 .lg-backdrop {
