@@ -2,11 +2,27 @@
 YOUR STYLES
 *******************/
 
+body {
+    background: linear-gradient(20deg, red, blue);
+}
 
 /* Header */
 header {
+    background: black;
+    margin: 5em;
+    padding: 2em;
   display: flex;
   justify-content: center;
+}
+
+header img {
+    width: 10%;
+    height: 10%;
+    display: flex;
+    flex-grow: .8;
+    
+ 
+
 }
 
 
@@ -31,7 +47,20 @@ figure {
 }
 
 .lg-image {
-    box-shadow: 0 0 30px #333;
+    box-shadow: 0 0 30px #255;
+}
+
+
+
+
+/* Footer */
+footer {
+    background: pink;
+    margin-bottom: -1em;
+    padding-bottom: 1em;
+    display: flex;
+    justify-content: center;
+    
 }
 
 /********************
@@ -42,7 +71,7 @@ MEDIA QUERIES
 
   /* Diagnostic Styling. */
   body {
-       background: red;
+       background: linear-gradient(-20deg, darkseagreen, teal);
   }
   
 }

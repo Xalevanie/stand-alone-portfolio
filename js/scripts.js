@@ -48,7 +48,6 @@ var img38 = '/img/fullsize/39.jpg';
 var img39 = '/img/fullsize/40.jpg';
 var img40 = '/img/fullsize/41.jpg';
 var img41 = '/img/fullsize/42.jpg';
-var img42 = '/img/fullsize/43.jpg';
 
 // Show Images
 $('header img').attr('src', eval('img' + numRand) );
