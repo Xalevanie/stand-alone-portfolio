@@ -34,7 +34,7 @@ header div {
 header h1 {
     color: antiquewhite;
     background: rgba(00, 54, 54, 0.9);
-    width: 2000px;
+    width: 100%;
     font-family: 'Dancing Script', cursive;
     font-size: 72px;
     position: absolute;
