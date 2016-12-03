@@ -73,6 +73,7 @@ figure div{
 justify-content: space-around; 
     padding: 1em
 }
+
 figcaption {
     font-family: 'Alegreya Sans', sans-serif;
     color: salmon;
@@ -139,7 +140,7 @@ MEDIA QUERIES
 
   /* Diagnostic Styling. */
   body {
-       background: linear-gradient(-90deg, red, orange, yellow, green, blue, purple);
+       background: linear-gradient( black, darkslategray);
   }
     
     header h1 {
