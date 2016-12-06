@@ -195,7 +195,7 @@ height: 700px;
 
   /* Diagnostic Styling. */
   body {
-       background: linear-gradient( black, darkslategray);
+       background: linear-gradient( black, darkslategrey);
   }
     
     header h1 {
